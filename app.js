@@ -80,6 +80,7 @@ function getLyrics(artist, songtitle){
       </pre>
       `;
       more.innerHTML = '';
+      more.setAttribute('style', 'display:none')
     }
     else {
       alert('Lyrics Not Available For This Song ..')
